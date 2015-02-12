@@ -1,0 +1,184 @@
+#header {
+    width: 1264px;
+    height: 100px;
+    float: left;
+    position: relative;
+}
+#body{
+    width: 100%;
+    height: 100%;
+
+}
+#over-overhead{
+    width: 100%;
+    height: 2100px;
+    background-image: url("../img/background_for_menu.jpg");
+
+}
+#meny{
+    background-color: #990000;
+    float: left;
+    width: 88.12351544%;
+    height: 130px;
+    margin-bottom:
+
+}
+#side-left{
+    float: left;
+    width: 5.93824228%;
+    height: 2000px;
+}
+#side-right{
+    float: right;
+    width: 5.93824228%;
+    height: 2000px;
+}
+#Home {
+    width: 100%;
+    height: 100%;
+    margin-left: 100px;
+}
+.button {
+    display: block;
+    height: 45%;
+    width: 32%;
+    float: left;
+    align-content: center;
+
+    background: #6f0008;
+    border: 2px solid rgba(134, 0, 8, 0.59);
+    /*Step 4: Fancy CSS3 Styles*/
+    background: -webkit-linear-gradient(top, #6f0008, #9a0000);
+    background: -moz-linear-gradient(top, #6f0008, #9a0000);
+    background: -o-linear-gradient(top, #6f0008, #9a0000);
+    background: -ms-linear-gradient(top, #6f0008, #9a0000);
+    background: linear-gradient(top, #6f0008, #9a0000);
+
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 0 8px 0 #1b383b;
+    -moz-box-shadow: 0 8px 0 #1b383b;
+    box-shadow: 0 8px 0 #1b383b;
+    text-align: center;
+
+
+    /*Step 3: Text Styles*/
+    color: rgb(0, 0, 0);
+
+    font: bold 1.5em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+}
+a.button2 {
+    text-decoration: none;
+}
+.buttonpressed{
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #024f00, #36c800);
+    background: -moz-linear-gradient(top, #024f00, #36c800);
+    background: -o-linear-gradient(top, #024f00, #36c800);
+    background: -ms-linear-gradient(top, #024f00, #36c800);
+    background: linear-gradient(top, #024f00, #36c800);
+
+    display: block;
+    height: 45%;
+    width: 32%;
+    float: left;
+    align-content: center;
+
+
+    border: 2px solid rgba(134, 0, 8, 0.59);
+    /*Step 4: Fancy CSS3 Styles*/
+
+
+    -webkit-border-radius: 50px;
+    -khtml-border-radius: 50px;
+    -moz-border-radius: 50px;
+    border-radius: 50px;
+
+    -webkit-box-shadow: 0 8px 0 #1b383b;
+    -moz-box-shadow: 0 8px 0 #1b383b;
+    box-shadow: 0 8px 0 #1b383b;
+    text-align: center;
+
+
+    /*Step 3: Text Styles*/
+    color: rgb(0, 0, 0);
+
+    font: bold 1.5em/50px "Helvetica Neue", Arial, Helvetica, Geneva, sans-serif;
+    text-shadow: 0 2px 2px rgba(255, 255, 255, 0.2);
+
+
+}
+.button:hover {
+    background: #3d7a80;
+    background: -webkit-linear-gradient(top, #024f00, #36c800);
+    background: -moz-linear-gradient(top, #024f00, #36c800);
+    background: -o-linear-gradient(top, #024f00, #36c800);
+    background: -ms-linear-gradient(top, #024f00, #36c800);
+    background: linear-gradient(top, #024f00, #36c800);
+}
+.button:active {
+    background: blue;
+
+}
+#container{
+    width: 87.13291139%;
+    height: 100%;
+    float: left;
+}
+
+h2, h1{
+    color: white;
+
+}
+#list{
+
+}
+#overhead {
+
+}
+#overhead td, tr, {
+    width:100%;
+    width:100%;
+    text-align: center;
+    float: left;
+}
+#overhead h1, h2{
+    color: white;
+}
+#div{
+    overflow: scroll;
+}
+
+
+#overhead h3{
+    color: grey;
+}
+
+#reserve{
+    float:left;
+    margin-left: 35%;
+
+}
+
+#reserve td {
+    color: #999999;
+
+}
+#reserve a {
+    color: #afafaf;
+}
+.check {
+    margin-top: 10px;
+    margin-bottom: 5px;
+
+
+}
+.check1 {
+        margin-top:10px;
+
+        margin-bottom:5px;
+}

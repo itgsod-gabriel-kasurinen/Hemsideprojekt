@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="sv-se">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style_for_information.css">
+    <meta charset="utc-8">
+    <title> Tranan.se </title>
+
+
+    <script>
+        function myFunction() {
+            var x = Math.floor((Math.random() * 30) + 0);
+            document.getElementById("demo").innerHTML = x;
+        }
+    </script>
+</head>
+<body>
+
+
+
+
+
+
+<div id="header">
+    <img src="../site/img/Header-hemsideprojekt.jpg">
+
+</div>
+<div>
+    <div id="over-overhead">
+
+
+        <div id="overhead">
+
+            <div id="side-left">
+                <img src="../site/img/Side-pattern-left.gif">
+
+
+            </div>
+
+            <div id="side-right">
+                <img src="../site/img/Side-pattern-right.gif">
+
+            </div>
+
+
+            <div id="meny">
+
+
+
+                <div id="knappar">
+
+                    <a class="button" href="http://localhost:63342/Hemsideprojekt/site/index.html" >Home</a>
+                    <a class="button" href="http://localhost:63342/Hemsideprojekt/site/Menu.html" >Menu</a>
+                    <a class="buttonpressed" href="http://localhost:63342/Hemsideprojekt/site/Information.html" >Information</a>
+
+                    <a class="button" href="http://localhost:63342/Hemsideprojekt/site/Find_us.html">Find us</a>
+                    <a class="button" href="http://localhost:63342/Hemsideprojekt/site/Reserve.html">Reserve</a>
+                    <a class="button" href="http://localhost:63342/Hemsideprojekt/site/questions.html">Questions</a>
+
+
+                </div>
+            </div>
+
+            <div id="allergy">
+                <h1>Allergies: </h1>
+                <h3>Here's an list of  ingridients that may provoke
+                    <br/> allergies in our food, you may also always ask
+                    <br/> the staff if your allergy isn't listed</h3>
+                <h5>Our shrimps contain shrimp<br/></h5>
+                <h5>Our bananas contain banana<br/></h5>
+                <h5>Our meat contain meat, just so veggies know<br/></h5>
+                <h5>Our tarantellas are poisinous, just don't touch those<br/></h5>
+
+
+                <h5>And our other meal also got stuff in it</h5>
+
+
+            </div>
+
+            <div id="parking_space">
+
+
+                <h2>Press the button below to check the amount of available parking slots<br/></h2>
+                <button id onclick="myFunction()","button" >____________________________________Check right now____________________________________</button>
+
+                <p>There are </p><p id="demo"></p><p>parking slots available right now.</p>
+
+                 </div>
+
+            <div id="open_hours">
+                <table id="open_hours_table">
+
+
+
+
+
+                </table>
+
+            </div>
+
+
+
+        </div>
+    </div>
+</div>
+
+
+</div>
+</body>
+
+</html>
